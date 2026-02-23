@@ -22,13 +22,14 @@ jobs:
           node-version: '20'
           
       - name: Install dependencies 
-        run: cd sivakumar-portfolio &&npm install
+        run: cd sivakumar-portfolio && npm install
 
       - name: lint
-        run: npm run lint
+        run: cd sivakumar-portfolio && npm run lint
 
       - name: e2etest
         run: |
+          cd sivakumar-portfolio
           npx playwright install --with-deps
           npx playwright test
       

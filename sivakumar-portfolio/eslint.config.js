@@ -5,7 +5,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['dist','playwright.config.js']),
+  globalIgnores(['dist','playwright.config.js','**/node_modules/**','**/test-results/**','**/playwright-report/**']),
   {
     files: ['**/*.{js,jsx}'],
     extends: [
