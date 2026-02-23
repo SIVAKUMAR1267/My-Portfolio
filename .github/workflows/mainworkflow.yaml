@@ -22,19 +22,15 @@ jobs:
           node-version: '20'
           
       - name: Install dependencies 
-        run: npm install
+        run: cd sivakumar-portfolio &&npm install
 
       - name: lint
         run: npm run lint
 
       - name: e2etest
         run: |
-          npm start &
-          sleep 10
-          cd playwright
-          npm ci
           npx playwright install --with-deps
-          npm test
+          npx playwright test
       
       - name: Send Discord notification
         if: ${{ success() }}
