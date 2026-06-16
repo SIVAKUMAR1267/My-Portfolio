@@ -140,7 +140,7 @@ const Skills = () => {
     { 
       title: 'Frontend Development', 
       icon: 'fa-laptop-code',
-      skills: ['JavaScript', 'TypeScript', 'React', 'Redux', 'HTML5', 'CSS3', 'Vite'] 
+      skills: ['JavaScript', 'TypeScript', 'React', 'Redux', 'HTML5', 'CSS3', 'Vite', 'Next.js'] 
     },
     { 
       title: 'Backend Development', 
@@ -193,7 +193,7 @@ const Projects = () => {
       subtitle: "Final Year Academic Project",
       desc: "Engineered a zero-knowledge security architecture merging AES-256 for payload encryption and RSA-2048 for session keys. Features robust database integration to guarantee end-to-end data integrity.",
       tech: ["React", "Node.js", "MongoDB", "Cryptography"],
-      codeLink: "https://github.com/SIVAKUMAR1267/ChunkSafe",
+      codeLink: "https://github.com/SIVAKUMAR1267/Sanctuary",
       icon: "fa-shield-halved"
     },
     {
