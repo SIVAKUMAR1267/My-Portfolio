@@ -72,11 +72,14 @@ const Hero = () => (
       {/* Centered Hero Text - No Image */}
       <div className="hero-text text-center">
         <span className="greeting">Hello, I'm</span>
-        <h1>Sivakumar R</h1>
-        <h2>Full-Stack Web Developer</h2>
+       <h1>Sivakumar R</h1>
+        <h2>Frontend Developer</h2>
         <p className="hero-desc">
-          I am a Computer Science Engineering student graduating in May 2026 from St. Joseph’s College of Engineering. 
-          Specializing in the MERN stack, I build scalable, secure, and user-centric web applications with a strong focus on automated CI/CD workflows and API integrations.
+          A dedicated Software Engineering graduate from St. Joseph’s College of Engineering. 
+          I specialize in building high-performance, user-centric web applications with a 
+          focus on React, TypeScript, and modern UI frameworks. By bridging complex 
+          backend architecture with seamless frontend interfaces, I create scalable and 
+          accessible digital experiences.
         </p>
         <div className="contact-info justify-center">
           <a href="mailto:rsivakumar1205o@gmail.com"><i className="fas fa-envelope"></i> rsivakumar1205o@gmail.com</a>
@@ -98,13 +101,12 @@ const About = () => (
       <div className="about-grid">
         <div className="about-bio">
           <p>
-            As a dedicated web developer, I am passionate about bridging the gap between complex backend architecture and seamless user experiences. My journey in software engineering is driven by continuous learning and hands-on building.
+            As a detail-oriented Frontend Developer, I am passionate about bridging the gap between complex backend architecture and seamless, high-performance user experiences. My engineering approach is driven by the belief that robust functionality should be matched by intuitive and accessible design.          </p>
+          <p>
+            Beyond my university curriculum at St. Joseph's College of Engineering, I have rigorously expanded my expertise through the Full-Stack Open course from the University of Helsinki. This training solidified my production-ready skills in React, Redux, and modern CSS frameworks, allowing me to build responsive, scalable interfaces that do not compromise on speed or reliability.
           </p>
           <p>
-            Beyond my university curriculum, I have rigorously expanded my expertise by completing the comprehensive <strong>Full-Stack Open course from the University of Helsinki</strong>. This equipped me with production-ready skills in React, Redux, Node.js, and Docker.
-          </p>
-          <p>
-            I thrive in environments that challenge me to solve real-world problems—whether that is engineering zero-knowledge privacy architectures for my final year project, or handling complex API workflows like integrating Amazon order flows for e-commerce platforms.
+            I thrive in environments that challenge me to solve complex front-end puzzles—whether that is engineering intuitive UI layers for advanced zero-knowledge privacy architectures, or optimizing state management and component rendering to handle complex API workflows. I am eager to leverage my proficiency in React, TypeScript, and Material UI to build forward-thinking digital products that prioritize the end-user.
           </p>
         </div>
         <div className="about-stats">
