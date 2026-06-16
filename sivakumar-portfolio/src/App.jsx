@@ -181,6 +181,14 @@ const Skills = () => {
 const Projects = () => {
   const projectsData = [
     {
+      title: "Full-Stack Neo-Brutalist E-commerce",
+      subtitle: "Dynamic Retail & Inventory System",
+      desc: "Developed a high-performance retail platform implementing a server-side caching layer for optimized API delivery.",
+      tech: ["Next.js", "Node.js", "MongoDB", "Express", "REST API"],
+      codeLink: "https://github.com/SIVAKUMAR1267/e-commerce",
+      icon: "fa-cart-shopping"
+    },
+    {
       title: "Privacy-Preserving Cloud File Storage",
       subtitle: "Final Year Academic Project",
       desc: "Engineered a zero-knowledge security architecture merging AES-256 for payload encryption and RSA-2048 for session keys. Features robust database integration to guarantee end-to-end data integrity.",
